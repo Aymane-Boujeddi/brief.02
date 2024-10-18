@@ -1,0 +1,19 @@
+-----------------LE SITE EcoTech Solution-------------
+
+------------------------------------------------------
+1.Taches principales:
+------------------------------------------------------
+
+-->analyse du protoytpe 
+-->ajouter deux pages "Contactez nous" et "A propos"
+-->developer les quatres pages en HTML/CSS
+-->Deployer et heberger le site dans Github
+
+------------------------------------------------------
+2.Bonuses:
+------------------------------------------------------
+
+-->Responsive dans desktop,tablette,mobile
+-->ajouter un mode sombre
+-->Creez une page 404
+-->integrer des micro animations 
