@@ -1,5 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 html , body {
     overflow-x: hidden ;
@@ -18,7 +21,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 60px;
+    padding: 0 145px;
     
     
 }
@@ -50,11 +53,8 @@ a {
     font-size: 25px;
     text-shadow: #222F65;
     transition: .35s;
-    
-    
-    
-
-
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
 }
 
 
@@ -71,7 +71,7 @@ a {
 }
 
 section.hero {
-    height: 1020px;
+    height: 1000px;
     display: flex;
     width: 100%;
     padding-left: 100px;
@@ -84,8 +84,8 @@ section.hero img{
     height: 960px;
     width: auto;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 0px;
+    right: -20px;
     z-index: -1;
 } 
 section.hero .content {
@@ -123,6 +123,7 @@ section.hero .button #btn1 button{
     border: 2px solid #111B47;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 0px 4px 4px  rgb(0, 0, 0, 25%) ;
 }
 
 section.hero .button #btn2 button{
@@ -134,6 +135,8 @@ section.hero .button #btn2 button{
     height: 35px;
     background-color: transparent;  
     text-decoration: none;  
+    box-shadow: 0px 4px 4px  rgb(0, 0, 0, 25%) ;
+
 }
 section.hero .content p{
     color: #6F7CB2;
@@ -143,7 +146,7 @@ section.hero h1 {
 }
 
 section.part1{
-    height: 740px;
+    height: 700px;
     display: flex;
     align-items: center;
     justify-content: space-around;
